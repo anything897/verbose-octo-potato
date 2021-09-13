@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
+      <a-box position="-4 0.5 -3" rotation="0" width="4" height="5" color="#4CC3D9"></a-box>
+      <a-box position="4 0.5 -3" rotation="0" width="4" height="5" color="#4CC3D9"></a-box>
+      <a-box position="6 0.5 -6.5" rotation="0 90 0" rotation="0" width="8" height="5" color="#4CC3D9"></a-box>
+      <a-box position="-6 0 -6.5" rotation="0 90 0" rotation="0" width="8" height="6" color="#4CC3D9"></a-box>
+      <a-box position="0 0 -10.5" rotation="0" width="12" height="5" color="#4CC3D9"></a-box>
+      <a-cylinder position="1 0 -2.75" radius="0.5" height="6" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-1 0 -2.75" radius="0.5" height="6" color="#FFC65D"></a-cylinder>
+      <a-sphere position="0 1.25 -9" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-entity geometry="primitive: cylinder; openEnded: true" material="side: double"></a-entity>
+      <a-box position="-4 0 -9" rotation="0 45 0" color="#380712"></a-box>
+      <a-octahedron position="-0 1.25 -6.5" rotation="0 90 0" rotation="0" width="8" height="6" color="#4CC3D9"></a-octahedron>
+      <a-ring position="-2 1.25 -6.5" rotation="0 90 0" rotation="0" width="8" height="6" color="#4CC3D9"></a-ring>
+      <a-ring position="2 1.25 -6.5" rotation="0 90 0" rotation="0 90 0" width="8" height="6" color="#7BC8A4"></a-ring>
+      <a-torus position="2 1.25 -6.5" rotation="0 90 0" rotation="0 90 0" width="8" height="6" color="#7BC8A4"></a-torus>
+      <a-entity geometry="primitive: torusKnot; p: 3; q:7"></a-entity>
+      <a-entity geometry="primitive: triangle" material="side: double" position="2 1.25 -6.5"></a-entity>
+      <a-box position="4 0 -9" rotation="0 45 0" color="#380712"></a-box>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="4 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="-4 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="0 0 -8" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="4 0 -8" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="-4 0 -8" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#072938"></a-sky>
+    </a-scene>
+  </body>
+</html>
